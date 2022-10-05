@@ -32,6 +32,11 @@ div.row-2-box{
   line-height: 20px;
 }
 
+#swissted-link{
+  text-decoration: none;
+  color: #08BDF3;
+}
+
 
 div.row-3-blue{
   background-color: #01BEF3;
