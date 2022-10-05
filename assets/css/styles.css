@@ -10,6 +10,14 @@ h1{
   color: darkorange;
 }
 
+h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 11px;
+  margin-top: 10px;
+  color: darkred;
+}
+
 div.button{
   font-weight: bold;
   color: #01BEF3;
