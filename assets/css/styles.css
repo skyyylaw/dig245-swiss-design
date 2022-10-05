@@ -3,6 +3,7 @@
 *{
  font-family: "Helvetica";
 }
+
 h1{
   text-align: center;
   font-weight: 900;
@@ -10,75 +11,92 @@ h1{
 }
 
 div.row-1-box{
-  font-size: 15px;
+  font-size: 5px;
   color: white;
   background: black;
 }
 
 div.row-2-box{
-  font-size: 68px;
+  font-size: 20px;
   color:#08BDF3;
   background: black;
-  line-height: 100%;
-  height:219px;
   font-weight: bold;
 }
 
 div.row-3-blue{
   background-color: #01BEF3;
-  height: 189px;
+  height: 80px;
 }
 
 div.row-3-pink{
   background: #DFE3D9;
-  height: 189px;
 }
 
 div.row-4-blue{
   background: #01BEF3;
-  height: 376px;
 }
 
 div.row-4-black{
   background: black;
-  height: 376px;
+  height: 150px;
 }
 
 div.row-4-pink{
   background: #DFE3D9;
-  height: 376px;
 }
 
 div.row-5-blue{
   background: #01BEF3;
-  height: 189px;
+  height: 80px;
 }
 
 div.row-5-pink{
   background: #DFE3D9;
-  height: 189px;
 }
 
-// X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+div.row-1-box{font-size: 7px;}
+div.row-2-box{font-size: 30px;}
+div.row-4-black{height: 200px;}
+div.row-3-blue{height: 80px;}
+div.row-5-blue{height: 80px;}
 
- }
+}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+  h1 {color:darkorange;}
+  div.row-1-box{font-size: 9px;}
+  div.row-2-box{font-size: 40px;}
+  div.row-4-black{height: 250px;}
+  div.row-3-blue{height: 100px;}
+  div.row-5-blue{height: 100px;}
 
-// Large devices (desktops, 992px and up)
+}
+
 @media (min-width: 992px) {
-div.row-1-box{font-size: 1px;}
- }
+  h1 {color:darkorange;}
+  div.row-1-box{font-size: 11px;}
+  div.row-2-box{font-size: 50px;}
+  div.row-4-black{height: 300px;}
+  div.row-3-blue{height: 130px;}
+  div.row-5-blue{height: 130px;}
 
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+}
+@media (min-width: 1200px) {
+  h1 {color:darkorange;}
+  div.row-1-box{font-size: 13px;}
+  div.row-2-box{font-size: 60px;}
+  div.row-4-black{height: 350px;}
+  div.row-3-blue{height: 150px;}
+  div.row-5-blue{height: 150px;}
 
-// XX-Large devices (larger desktops, 1400px and up)
+}
+
 @media (min-width: 1400px) {
-h1 {color:black;}
- }
+  div.row-1-box{font-size: 15px;}
+  div.row-2-box{font-size: 68px;}
+  div.row-4-black{height: 376px;}
+  div.row-3-blue{height: 200px;}
+  div.row-5-blue{height: 200px;}
+}
