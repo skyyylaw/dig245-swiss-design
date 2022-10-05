@@ -28,7 +28,10 @@ div.row-2-box{
   color:#08BDF3;
   background: black;
   font-weight: bold;
+  padding-top: 50px;
+  line-height: 40px;
 }
+
 
 div.row-3-blue{
   background-color: #01BEF3;
